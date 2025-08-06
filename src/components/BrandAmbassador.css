@@ -1,0 +1,30 @@
+.brand-ambassador {
+  display: flex;
+  align-items: center;
+  padding: 4rem 2rem;
+  background-color: #f8f9fa;
+}
+
+.brand-ambassador-image {
+  flex: 1;
+  padding-right: 2rem;
+}
+
+.brand-ambassador-image img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.brand-ambassador-content {
+  flex: 2;
+}
+
+.brand-ambassador-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.brand-ambassador-content p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}

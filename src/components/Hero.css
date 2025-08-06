@@ -1,0 +1,53 @@
+.hero {
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.hero-content {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero-buttons {
+  margin-top: 2rem;
+}
+
+.hero-button {
+  text-decoration: none;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  margin: 0 1rem;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.hero-button.donate {
+  background-color: #ff4500;
+}
+
+.hero-button.donate:hover,
+.hero-button.donate:focus {
+  background-color: #e03e00;
+}
+
+.hero-button.about-us {
+  background-color: #007bff;
+}
+
+.hero-button.about-us:hover,
+.hero-button.about-us:focus {
+  background-color: #0056b3;
+}
