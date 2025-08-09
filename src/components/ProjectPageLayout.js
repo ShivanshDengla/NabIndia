@@ -1,10 +1,12 @@
 import React from 'react';
 import './ProjectPageLayout.css';
+import ImageGallery from './ImageGallery';
 
 const ProjectPageLayout = ({
   title,
   imageUrl,
   imageAlt,
+  galleryImages,
   history,
   aimsAndObjectives,
   committeeMembers,
@@ -41,6 +43,8 @@ const ProjectPageLayout = ({
           </div>
         )}
       </div>
+
+      {galleryImages && <ImageGallery images={galleryImages} />}
 
       {committeeMembers && (
         <div className="project-section committee-section">

@@ -25,12 +25,24 @@ const MnbHomeForTheBlind = () => {
     </>
   );
 
+  const galleryImages = [
+    { src: '/images/Projects/mnb-1.jpg', alt: 'MNB Project Image 1' },
+    { src: '/images/Projects/mnb-2.jpg', alt: 'MNB Project Image 2' },
+    { src: '/images/Projects/mnb-3.jpg', alt: 'MNB Project Image 3' },
+    { src: '/images/Projects/mnb-4.jpg', alt: 'MNB Project Image 4' },
+  ];
+
   const contactInfo = (
     <>
       <h4>Contact Details</h4>
       <p>26793688/ 26791487/ +91 9004319934</p>
-
-     
+      <p>
+        MNB INDUSTRIAL HOME FOR THE BLIND <br />
+        280 S V ROAD NEAR BUS DEPOT <br />
+        JOGESHWARI (W) MUMBAI 400102 <br />
+        M-90043 19934 <br />
+        mnbhome280@gmail.com
+      </p>
     </>
   );
 
@@ -42,6 +54,7 @@ const MnbHomeForTheBlind = () => {
       history={history}
       aimsAndObjectives={aimsAndObjectives}
       contactInfo={contactInfo}
+      galleryImages={galleryImages}
     />
   );
 };
