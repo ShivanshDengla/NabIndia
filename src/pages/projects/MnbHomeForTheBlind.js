@@ -8,7 +8,7 @@ const MnbHomeForTheBlind = () => {
       <h4>Background</h4>
       <p>Established on July 16, 1956, The Muncherjee Nowrojee Banajee Industrial Home for the Blind (MNB) stands as a living monument to the generosity of the late Serenbai Banajee, who graciously donated her bungalow in memory of her father. Her vision was to create a residential, industrial, and vocational training centre for visually challenged men.</p>
       <p>In keeping with her noble intent, the institution was formally registered under the Bombay Public Trust Act, 1950.</p>
-      <p>Today, MNB continues to uphold this legacy by running a centre for visually impaired (VI) and additional disabilities with visually impaired (MDVI) children, as well as offering diverse programs for VI adults. These include vocational skills training, IT courses, and other development initiatives aimed at enabling self-reliance and empowerment.</p>
+      <p>Today, MNB continues to uphold this legacy by running a centre for visually impaired (VI) and additional disabilities with visually impaired (MDVI) children, as well as offering diverse programs for VI adults. These include vocational skills training, IT courses, and other development initiatives aimed at enabling self-reliance and empowerment</p>
     </>
   );
 
@@ -27,9 +27,9 @@ const MnbHomeForTheBlind = () => {
   );
 
   const galleryImages = [
-    { src: '/images/Projects/mnb-2.jpg', alt: 'MNB Project Image 2' },
-    { src: '/images/Projects/mnb-3.jpg', alt: 'MNB Project Image 3' },
-    { src: '/images/Projects/mnb-4.jpg', alt: 'MNB Project Image 4' },
+    { src: '/images/Projects/mnb-2.jpg', alt: 'MNB Project Image' },
+    { src: '/images/Projects/mnb-3.jpg', alt: 'MNB Project Image' },
+    { src: '/images/Projects/mnb-4.jpg', alt: 'MNB Project Image' },
   ];
 
   const contactInfo = (
