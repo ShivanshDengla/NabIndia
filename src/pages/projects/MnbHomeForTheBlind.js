@@ -37,6 +37,8 @@ const MnbHomeForTheBlind = () => {
   return (
     <ProjectPageLayout
       title="MNB Home for the Blind"
+      imageUrl="/images/Projects/mnb.png"
+      imageAlt="Dr. Vimal Kumar Dengla with Actress Tapsee Pannu"
       history={history}
       aimsAndObjectives={aimsAndObjectives}
       contactInfo={contactInfo}
