@@ -40,7 +40,7 @@ const projects = [
     link: '/projects/rehabilitation'
   },
   {
-    title: 'Vocational Training',
+    title: 'Vocational Training Ambernath',
     description: 'A person who loses the most precious gift of God (sight) tends to become frustrated. He needs proper counselling, guidance and training to boost up his confidence. Keeping this view in mind the NAB has taken up this challenging training programme through which it would be possible to rehabilitate this unprivileged section of the society socio-economically.',
     image: 'images/Projects/vocational-training.jpeg',
     link: '/projects/vocational-training'
@@ -100,14 +100,14 @@ const projects = [
     link: '/projects/fund-raising-committee'
   },
   {
-    title: 'Community Based Rehabilitation',
-    description: 'Hic commodo odio pharetra magni aliquet posuere aptent mus leo class urna. Eum diamlorem, netus posuere aptent mus.',
+    title: 'MNB Home for the Blind',
+    description: 'Established on July 16, 1956, The Muncherjee Nowrojee Banajee Industrial Home for the Blind (MNB) stands as a living monument to the generosity of the late Serenbai Banajee, who graciously donated her bungalow in memory of her father.',
     image: 'images/Projects/community-based-rehab.png',
-    link: '/projects/community-based-rehabilitation'
+    link: '/projects/mnb-home-for-the-blind'
   },
   {
-    title: 'Home for Elderly Blind',
-    description: 'Hic commodo odio pharetra magni aliquet posuere aptent mus leo class urna. Eum diamlorem, netus posuere aptent mus.',
+    title: 'Home for the Aging Blind, Khandala',
+    description: 'Dignified Living for Visually Impaired Seniors. Established in 1970 by the National Association for the Blind (NAB) India, the Lions Home for the Aging Blind in Khandala is not just a place of shelter—it is a vibrant, nurturing community that brings hope, dignity, and empowerment to more than 75 visually impaired senior citizens.',
     image: 'images/Projects/elderly-home.jpeg',
     link: '/projects/home-for-elderly-blind'
   },

@@ -1,6 +1,7 @@
 import React from 'react';
 import './About.css';
 import OfficeBearers from '../components/OfficeBearers';
+import Leadership from '../components/Leadership';
 
 const About = () => {
   const heroStyle = {
@@ -19,8 +20,14 @@ const About = () => {
       <section className="about-section">
         <div className="content-wrapper">
           <h2>Empowering Lives Through Vision</h2>
-          <p>The National Association for the Blind (NAB) is dedicated to improving the lives of individuals who are visually impaired throughout the country. We work tirelessly to provide education and rehabilitation services that empower these individuals and help them achieve their full potential.</p>
-          <p>Our programs are designed to address the unique needs and challenges faced by those who are blind, and we strive to create a supportive and inclusive environment where they can learn, grow, and thrive.</p>
+          <p>The National Association for the Blind (NAB) is dedicated to improving the lives of
+individuals who are visually impaired throughout the country. We work tirelessly to provide
+education and rehabilitation services that empower these individuals and help them achieve
+their full potential. Our programs are designed to address the unique needs and challenges
+faced by those who are blind, and we strive to create a supportive and inclusive
+environment where they can learn, grow, and thrive. Whether through our educational
+initiatives, employment training programs, or other supportive services, NAB is committed to
+making a difference in the lives of visually impaired individuals nationwide.</p>
         </div>
       </section>
 
@@ -39,7 +46,7 @@ const About = () => {
         </div>
       </section>
 
-      <section className="about-section impact">
+      {/* <section className="about-section impact">
         <div className="content-wrapper">
           <h2>Our Impact</h2>
           <div className="stats-container">
@@ -61,7 +68,8 @@ const About = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
+      <Leadership />
 
       <OfficeBearers />
 

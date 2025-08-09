@@ -59,6 +59,8 @@ const PerfumeryCollege = () => {
       <p>11/12, Khan Abdul Gaffar Khan Road, Worli Seaface Mumbai – 400030</p>
       <p>Tel: +9122 24918528 / 9372766313 Ext.246/220</p>
       <p>Email: perfumerycollege@nabindia.info</p>
+      <img src="/images/Projects/perfumery-college-2.jpg" alt="VI smelling in laboratory" style={{ width: '100%', marginTop: '20px', marginBottom: '10px' }} />
+      <p style={{ textAlign: 'center', fontStyle: 'italic' }}>VI smelling in laboratory</p>
     </>
   );
 

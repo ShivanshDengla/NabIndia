@@ -10,6 +10,7 @@ const TalkingBooks = () => {
     <>
       <p>The formal format is digital audio and is circulated in CDs, downloaded on the static devices of the Members or delivered online. Priority is generally given for textbooks prescribed by various Education Boards and Universities in Maharashtra and other States, General Knowledge and reference books recommended for Professional Courses and Competitive Examination. Books of general interest like novels, classics, biographies, travelogues and short stories are also recorded. The Centre’s three acoustically designed Studios where recording is carried out in two shifts churn out books in English and Indian languages – Hindi, Marathi and Gujarati. The Talking Book Library has the membership strength of 2,939 i.e. 2,759 Individuals and 180 Institutions. The total books collection with us is 5,711 as on 2022.</p>
       <p>Online facility was made available to our Members from November 2018. A Member who wishes to receive audio books online can now send a request through email to our Library. The Library uploads the audio book online and sends the link of that book to the registered email ID of the Member with the Library. This book can be downloaded by the Member for his use from this link.</p>
+      <img src="/images/Projects/talking-book-1.jpg" alt="Talking book recording session" style={{ width: '100%', margin: '20px 0' }} />
     </>
   );
 
@@ -17,6 +18,7 @@ const TalkingBooks = () => {
     <>
       <p>For more information about online facility and to become a member of the Talking Book Library contact: 9372766319 or mail to nab.india.library@gmail.com</p>
       <h4>How you can help us</h4>
+      <img src="/images/Projects/talking-book-2.jpg" alt="Volunteer reading for a talking book" style={{ width: '100%', margin: '20px 0' }} />
       <ul>
         <li>If you have a good voice and inflection, you may be interested in volunteering to record at our Studios. Audition tests are scheduled on 1st, 3rd and 5th Saturdays of a month, by prior appointment on Phone – 24952913 / 24935370 / 24935365 / 24932539 / 24918528 (Extensions: 240/239). Recording is carried out in two shifts – 10 am to 1 pm and 2 pm to 5 pm. For recording a general/educational book one needs to visit the Studios at least twice or thrice a week during one of the two shifts.</li>
         <li>You may like to volunteer during your spare time to read or record for our visually challenged students at your home. For this please let us know your contact details and the languages you are fluent in, so that we can share these details with our members, who will get in touch with you directly as and when they need your assistance.</li>
@@ -35,11 +37,12 @@ const TalkingBooks = () => {
         <li>Accession Code</li>
       </ul>
       <p>The downloadable link can be used only by authorised g-mail account holder.</p>
+      <img src="/images/Projects/talking-book-3.jpg" alt="A collection of talking books" style={{ width: '100%', margin: '20px 0' }} />
       <p><a href="https://nabindia.org.in/wp-content/uploads/2024/04/All-Marathi-Books.xlsx" target="_blank" rel="noopener noreferrer">Click The link below to get the complete list of Marathi Audio Books</a></p>
       <p><a href="https://nabindia.org.in/wp-content/uploads/2024/04/All-Hindi-Books.xlsx" target="_blank" rel="noopener noreferrer">Click The link below to get the complete list of Hindi Audio Books</a></p>
       <p><a href="https://nabindia.org.in/wp-content/uploads/2024/04/All-English-Books.xlsx" target="_blank" rel="noopener noreferrer">Click The link below to get the complete list of English Audio Books</a></p>
-      <p><a href="https://nabindia.org.in/wp-content/uploads/2024/04/All-Gujarathi-Books.xlsx" target="_blank" rel="noopener noreferrer">Click The link below to get the complete list of Gujarathi Audio Books</a></p>
-      <p><a href="https://nabindia.org.in/wp-content/uploads/2024/04/All-other-languages-Books.xlsx" target="_blank" rel="noopener noreferrer">Click The link below to get the complete list of Punjabi, Kannada, Tamil and Sanskrit Audio Books</a></p>
+      <p><a href="https://nabindia.org.in/wp-content/uploads/2024/04/All-Gujarathi-Books.xlsx" target="_blank" rel="noopener noreferrer">Click The link to get the complete list of Gujarathi Audio Books</a></p>
+      <p><a href="https://nabindia.org.in/wp-content/uploads/2024/04/All-other-languages-Books.xlsx" target="_blank" rel="noopener noreferrer">Click The link to get the complete list of Punjabi, Kannada, Tamil and Sanskrit Audio Books</a></p>
     </>
   );
 

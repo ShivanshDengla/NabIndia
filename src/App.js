@@ -26,7 +26,7 @@ import WomensEmpowerment from './pages/projects/WomensEmpowerment';
 import StateBranches from './pages/projects/StateBranches';
 import PerfumeryCollege from './pages/projects/PerfumeryCollege';
 import FundRaisingCommittee from './pages/projects/FundRaisingCommittee';
-import CommunityBasedRehabilitation from './pages/projects/CommunityBasedRehabilitation';
+import MnbHomeForTheBlind from './pages/projects/MnbHomeForTheBlind';
 import HomeForElderlyBlind from './pages/projects/HomeForElderlyBlind';
 import CentreForBlindWomen from './pages/projects/CentreForBlindWomen';
 import RehabilitationCentreMountAbu from './pages/projects/RehabilitationCentreMountAbu';
@@ -60,7 +60,7 @@ function App() {
             <Route path="/projects/state-branches" element={<StateBranches />} />
             <Route path="/projects/perfumery-college" element={<PerfumeryCollege />} />
             <Route path="/projects/fund-raising-committee" element={<FundRaisingCommittee />} />
-            <Route path="/projects/community-based-rehabilitation" element={<CommunityBasedRehabilitation />} />
+            <Route path="/projects/mnb-home-for-the-blind" element={<MnbHomeForTheBlind />} />
             <Route path="/projects/home-for-elderly-blind" element={<HomeForElderlyBlind />} />
             <Route path="/projects/centre-for-blind-women" element={<CentreForBlindWomen />} />
             <Route path="/projects/rehabilitation-centre-mount-abu" element={<RehabilitationCentreMountAbu />} />

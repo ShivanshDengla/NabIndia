@@ -4,6 +4,7 @@ import './ProjectPageLayout.css';
 const ProjectPageLayout = ({
   title,
   imageUrl,
+  imageAlt,
   history,
   aimsAndObjectives,
   committeeMembers,
@@ -36,7 +37,7 @@ const ProjectPageLayout = ({
         
         {imageUrl && (
           <div className="project-sidebar">
-            <img src={imageUrl} alt={title} className="project-image" />
+            <img src={imageUrl} alt={imageAlt || title} className="project-image" />
           </div>
         )}
       </div>
