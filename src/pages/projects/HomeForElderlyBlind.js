@@ -1,5 +1,6 @@
 import React from 'react';
 import ProjectPageLayout from '../../components/ProjectPageLayout';
+import SEO from '../../components/SEO';
 
 const HomeForElderlyBlind = () => {
   const aimsAndObjectives = (
@@ -32,11 +33,18 @@ const HomeForElderlyBlind = () => {
   );
 
   return (
-    <ProjectPageLayout
-      title="Lions Home for the Aging Blind, Khandala"
-      imageUrl="/images/Projects/elderly-home.jpeg"
-      aimsAndObjectives={aimsAndObjectives}
-    />
+    <>
+      <SEO
+        title="Lions Home for the Aging Blind, Khandala - NAB India"
+        description="Discover the Lions Home for the Aging Blind in Khandala, a nurturing community for visually impaired senior citizens. We provide shelter, care, and empowering activities to ensure a life of dignity and purpose."
+        keywords="Home for elderly blind, NAB India Khandala, Lions Home for the Aging Blind, senior care for visually impaired, elderly blind care India"
+      />
+      <ProjectPageLayout
+        title="Lions Home for the Aging Blind, Khandala"
+        imageUrl="/images/Projects/elderly-home.jpeg"
+        aimsAndObjectives={aimsAndObjectives}
+      />
+    </>
   );
 };
 

@@ -1,5 +1,6 @@
 import React from 'react';
 import ProjectPageLayout from '../../components/ProjectPageLayout';
+import SEO from '../../components/SEO';
 
 const Advocacy = () => {
   const history = (
@@ -43,13 +44,20 @@ const Advocacy = () => {
   );
 
   return (
-    <ProjectPageLayout
-      title="Advocacy"
-      imageUrl="/images/Projects/advocacy.jpeg"
-      history={history}
-      aimsAndObjectives={aimsAndObjectives}
-      contactInfo={contactInfo}
-    />
+    <>
+      <SEO
+        title="Advocacy for the Visually Impaired - NAB India"
+        description="Learn about NAB India's advocacy efforts to protect the rights of the visually impaired. We work with government and private sectors to promote policy changes and provide legal assistance."
+        keywords="NAB India advocacy, rights of visually impaired, legal aid for the blind, policy change for disabled, advocacy for disabled India"
+      />
+      <ProjectPageLayout
+        title="Advocacy"
+        imageUrl="/images/Projects/advocacy.jpeg"
+        history={history}
+        aimsAndObjectives={aimsAndObjectives}
+        contactInfo={contactInfo}
+      />
+    </>
   );
 };
 

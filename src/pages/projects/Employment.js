@@ -1,5 +1,6 @@
 import React from 'react';
 import ProjectPageLayout from '../../components/ProjectPageLayout';
+import SEO from '../../components/SEO';
 
 const Employment = () => {
   const history = (
@@ -98,13 +99,20 @@ const Employment = () => {
   );
 
   return (
-    <ProjectPageLayout
-      title="Employment"
-      imageUrl="/images/Projects/employement.jpg"
-      history={history}
-      aimsAndObjectives={aimsAndObjectives}
-      contactInfo={contactInfo}
-    />
+    <>
+      <SEO
+        title="Employment for the Visually Impaired - NAB India"
+        description="Explore NAB India's employment programs for the visually impaired, including open employment, self-employment, and sheltered workshops. We provide training, placement, and support to help individuals achieve economic independence."
+        keywords="NAB India employment, jobs for visually impaired, employment for blind India, self-employment for disabled, sheltered workshops, vocational training for blind"
+      />
+      <ProjectPageLayout
+        title="Employment"
+        imageUrl="/images/Projects/employement.jpg"
+        history={history}
+        aimsAndObjectives={aimsAndObjectives}
+        contactInfo={contactInfo}
+      />
+    </>
   );
 };
 

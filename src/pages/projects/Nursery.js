@@ -1,5 +1,6 @@
 import React from 'react';
 import ProjectPageLayout from '../../components/ProjectPageLayout';
+import SEO from '../../components/SEO';
 
 const Nursery = () => {
   const history = (
@@ -23,12 +24,19 @@ const Nursery = () => {
   );
 
   return (
-    <ProjectPageLayout
-      title="Nursery"
-      imageUrl="/images/Projects/nursery.png"
-      history={history}
-      aimsAndObjectives={aimsAndObjectives}
-    />
+    <>
+      <SEO
+        title="NAB Mata Lachmi Nursery for the Blind - Early Intervention"
+        description="The NAB Mata Lachmi Nursery for the Blind offers early intervention programs for visually impaired and multi-disabled children aged 2½–5, providing a foundation for their future education and development."
+        keywords="NAB Nursery, early intervention for blind children, Mata Lachmi Nursery, education for visually impaired toddlers, MDVI program"
+      />
+      <ProjectPageLayout
+        title="Nursery"
+        imageUrl="/images/Projects/nursery.png"
+        history={history}
+        aimsAndObjectives={aimsAndObjectives}
+      />
+    </>
   );
 };
 

@@ -2,6 +2,7 @@ import React from 'react';
 import './About.css';
 import OfficeBearers from '../components/OfficeBearers';
 import Leadership from '../components/Leadership';
+import SEO from '../components/SEO';
 
 const About = () => {
   const heroStyle = {
@@ -12,6 +13,11 @@ const About = () => {
 
   return (
     <div className="about-container">
+      <SEO
+        title="About NAB India - Our Mission, Vision, and Leadership"
+        description="Learn about the National Association for the Blind (NAB) India, our mission to empower the visually impaired, our vision for an inclusive future, and the dedicated team leading our efforts."
+        keywords="About NAB India, NAB India mission, NAB India vision, NAB India leadership, National Association for the Blind history"
+      />
       <div className="about-hero" style={heroStyle}>
         <h1>About NAB India</h1>
         <p>Get in touch with us for any inquiries or support</p>

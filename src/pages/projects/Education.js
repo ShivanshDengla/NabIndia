@@ -1,5 +1,6 @@
 import React from 'react';
 import ProjectPageLayout from '../../components/ProjectPageLayout';
+import SEO from '../../components/SEO';
 
 const Education = () => {
   const history = (
@@ -200,13 +201,20 @@ const Education = () => {
   );
 
   return (
-    <ProjectPageLayout
-      title="Education"
-      imageUrl="/images/Projects/education.jpg"
-      history={history}
-      aimsAndObjectives={aimsAndObjectives}
-      contactInfo={contactInfo}
-    />
+    <>
+      <SEO
+        title="Education for the Visually Impaired - NAB India"
+        description="Learn about NAB India's inclusive education programs for visually impaired children. We provide academic support, digital literacy, assistive devices, and teacher training to empower students."
+        keywords="NAB India education, inclusive education India, education for blind children, digital literacy for visually impaired, assistive devices for students, special education"
+      />
+      <ProjectPageLayout
+        title="Education"
+        imageUrl="/images/Projects/education.jpg"
+        history={history}
+        aimsAndObjectives={aimsAndObjectives}
+        contactInfo={contactInfo}
+      />
+    </>
   );
 };
 

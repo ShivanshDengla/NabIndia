@@ -1,5 +1,6 @@
 import React from 'react';
 import ProjectPageLayout from '../../components/ProjectPageLayout';
+import SEO from '../../components/SEO';
 
 const CentreForBlindWomen = () => {
   const aimsAndObjectives = (
@@ -20,11 +21,18 @@ const CentreForBlindWomen = () => {
   );
 
   return (
-    <ProjectPageLayout
-      title="Centre For Blind Women"
-      imageUrl="/images/Projects/center-of-blind.jpg"
-      aimsAndObjectives={aimsAndObjectives}
-    />
+    <>
+      <SEO
+        title="Centre for Blind Women - Empowering Visually Impaired Women"
+        description="The NAB Centre for Blind Women provides specialized support, training, and resources to empower visually impaired women, helping them achieve independence and social integration."
+        keywords="Centre for Blind Women, NAB India, empowering blind women, support for visually impaired women, training for blind women"
+      />
+      <ProjectPageLayout
+        title="Centre For Blind Women"
+        imageUrl="/images/Projects/center-of-blind.jpg"
+        aimsAndObjectives={aimsAndObjectives}
+      />
+    </>
   );
 };
 

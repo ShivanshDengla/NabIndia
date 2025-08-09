@@ -1,5 +1,6 @@
 import React from 'react';
 import ProjectPageLayout from '../../components/ProjectPageLayout';
+import SEO from '../../components/SEO';
 
 const TalkingBooks = () => {
   const history = (
@@ -47,13 +48,20 @@ const TalkingBooks = () => {
   );
 
   return (
-    <ProjectPageLayout
-      title="Talking Books"
-      imageUrl="/images/Projects/talking-book.jpg"
-      history={history}
-      aimsAndObjectives={aimsAndObjectives}
-      contactInfo={contactInfo}
-    />
+    <>
+      <SEO
+        title="Talking Books Library - Audio Books for the Visually Impaired"
+        description="The NAB India Talking Book Centre provides a vast library of audiobooks in various languages, including textbooks, literature, and more, available online and on CD for visually impaired individuals."
+        keywords="Talking books India, audiobooks for blind, NAB library, digital talking books, audio library for visually impaired"
+      />
+      <ProjectPageLayout
+        title="Talking Books"
+        imageUrl="/images/Projects/talking-book.jpg"
+        history={history}
+        aimsAndObjectives={aimsAndObjectives}
+        contactInfo={contactInfo}
+      />
+    </>
   );
 };
 

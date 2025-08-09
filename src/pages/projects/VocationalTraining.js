@@ -1,5 +1,6 @@
 import React from 'react';
 import ProjectPageLayout from '../../components/ProjectPageLayout';
+import SEO from '../../components/SEO';
 
 const VocationalTraining = () => {
   const history = (
@@ -77,13 +78,20 @@ const VocationalTraining = () => {
   );
 
   return (
-    <ProjectPageLayout
-      title="Vocational Training"
-      imageUrl="/images/Projects/vocational-training.jpeg"
-      history={history}
-      aimsAndObjectives={aimsAndObjectives}
-      contactInfo={contactInfo}
-    />
+    <>
+      <SEO
+        title="NAB-IDBI Polytechnic - Vocational Training for the Visually Impaired"
+        description="Discover the NAB-IDBI Polytechnic in Ambarnath, offering vocational training for visually impaired youth in technical trades, machine operation, and entrepreneurship to foster socio-economic rehabilitation."
+        keywords="Vocational training for blind, NAB-IDBI Polytechnic, technical training for visually impaired, machine operator course for blind, entrepreneurship development for disabled"
+      />
+      <ProjectPageLayout
+        title="Vocational Training"
+        imageUrl="/images/Projects/vocational-training.jpeg"
+        history={history}
+        aimsAndObjectives={aimsAndObjectives}
+        contactInfo={contactInfo}
+      />
+    </>
   );
 };
 

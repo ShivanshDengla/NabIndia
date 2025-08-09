@@ -1,5 +1,6 @@
 import React from 'react';
 import ProjectPageLayout from '../../components/ProjectPageLayout';
+import SEO from '../../components/SEO';
 
 const MnbHomeForTheBlind = () => {
   const history = (
@@ -26,7 +27,6 @@ const MnbHomeForTheBlind = () => {
   );
 
   const galleryImages = [
-    { src: '/images/Projects/mnb-1.jpg', alt: 'MNB Project Image 1' },
     { src: '/images/Projects/mnb-2.jpg', alt: 'MNB Project Image 2' },
     { src: '/images/Projects/mnb-3.jpg', alt: 'MNB Project Image 3' },
     { src: '/images/Projects/mnb-4.jpg', alt: 'MNB Project Image 4' },
@@ -47,15 +47,22 @@ const MnbHomeForTheBlind = () => {
   );
 
   return (
-    <ProjectPageLayout
-      title="MNB Home for the Blind"
-      imageUrl="/images/Projects/mnb.png"
-      imageAlt="Dr. Vimal Kumar Dengla with Actress Tapsee Pannu"
-      history={history}
-      aimsAndObjectives={aimsAndObjectives}
-      contactInfo={contactInfo}
-      galleryImages={galleryImages}
-    />
+    <>
+      <SEO
+        title="MNB Home for the Blind - Vocational Training & Empowerment"
+        description="The Muncherjee Nowrojee Banajee (MNB) Industrial Home for the Blind provides vocational training, IT courses, and other development programs to empower visually impaired men and children."
+        keywords="MNB Home for the Blind, NAB India, vocational training for blind men, IT courses for visually impaired, empowerment for disabled"
+      />
+      <ProjectPageLayout
+        title="MNB Home for the Blind"
+        imageUrl="/images/Projects/mnb.png"
+        imageAlt="Dr. Vimal Kumar Dengla with Actress Tapsee Pannu"
+        history={history}
+        aimsAndObjectives={aimsAndObjectives}
+        contactInfo={contactInfo}
+        galleryImages={galleryImages}
+      />
+    </>
   );
 };
 

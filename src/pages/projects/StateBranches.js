@@ -1,5 +1,6 @@
 import React from 'react';
 import ProjectPageLayout from '../../components/ProjectPageLayout';
+import SEO from '../../components/SEO';
 
 const StateBranches = () => {
   const history = (
@@ -23,13 +24,20 @@ const StateBranches = () => {
   );
 
   return (
-    <ProjectPageLayout
-      title="State Branches"
-      imageUrl="/images/Projects/state-branches.jpg"
-      history={history}
-      aimsAndObjectives={aimsAndObjectives}
-      contactInfo={contactInfo}
-    />
+    <>
+      <SEO
+        title="NAB India State Branches - Nationwide Network"
+        description="Discover the nationwide network of the National Association for the Blind, India, with 22 state and 65 district branches dedicated to serving the visually impaired community across the country."
+        keywords="NAB India state branches, NAB branches in India, blind welfare societies India, local support for visually impaired"
+      />
+      <ProjectPageLayout
+        title="State Branches"
+        imageUrl="/images/Projects/state-branches.jpg"
+        history={history}
+        aimsAndObjectives={aimsAndObjectives}
+        contactInfo={contactInfo}
+      />
+    </>
   );
 };
 

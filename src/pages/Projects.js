@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Projects.css';
+import SEO from '../components/SEO';
 
 const projects = [
   {
@@ -128,6 +129,11 @@ const projects = [
 const Projects = () => {
   return (
     <div className="projects-page">
+      <SEO
+        title="Our Projects - NAB India"
+        description="Explore the wide range of projects and activities at the National Association for the Blind (NAB) India. From education and rehabilitation to advocacy and vocational training, learn how we're making a difference."
+        keywords="NAB India projects, NAB India activities, education for the blind, rehabilitation services, vocational training, advocacy for visually impaired"
+      />
       <h1 className="main-heading">Projects and Activities</h1>
       <div className="projects-grid">
         {projects.map((project, index) => (

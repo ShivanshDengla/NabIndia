@@ -1,5 +1,6 @@
 import React from 'react';
 import ProjectPageLayout from '../../components/ProjectPageLayout';
+import SEO from '../../components/SEO';
 
 const BraillePress = () => {
   const history = (
@@ -78,14 +79,21 @@ const BraillePress = () => {
   );
 
   return (
-    <ProjectPageLayout
-      title="NAB Sir Jamshedji Duggan Braille Press (NAB SJD)"
-      imageUrl="/images/Projects/braille-press.png"
-      imageAlt="Dr. Vimal Dengla receiving an award from John Abraham, the brand Ambassador of NAB India"
-      history={history}
-      aimsAndObjectives={aimsAndObjectives}
-      contactInfo={contactInfo}
-    />
+    <>
+      <SEO
+        title="NAB Braille Press - Accessible Literature for the Visually Impaired"
+        description="Discover the NAB Sir Jamshedji Duggan Braille Press, one of the largest Braille production units in India. We provide textbooks, literature, and other materials in Braille to empower visually impaired individuals."
+        keywords="NAB Braille Press, Braille books India, accessible literature, tactile graphics, Braille production, visually impaired education materials"
+      />
+      <ProjectPageLayout
+        title="NAB Sir Jamshedji Duggan Braille Press (NAB SJD)"
+        imageUrl="/images/Projects/braille-press.png"
+        imageAlt="Dr. Vimal Dengla receiving an award from John Abraham, the brand Ambassador of NAB India"
+        history={history}
+        aimsAndObjectives={aimsAndObjectives}
+        contactInfo={contactInfo}
+      />
+    </>
   );
 };
 

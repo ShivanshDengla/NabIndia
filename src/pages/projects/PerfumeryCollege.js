@@ -1,5 +1,6 @@
 import React from 'react';
 import ProjectPageLayout from '../../components/ProjectPageLayout';
+import SEO from '../../components/SEO';
 
 const PerfumeryCollege = () => {
   const history = (
@@ -65,13 +66,20 @@ const PerfumeryCollege = () => {
   );
 
   return (
-    <ProjectPageLayout
-      title="Perfumery College"
-      imageUrl="/images/Projects/perfumery-college.jpg"
-      history={history}
-      aimsAndObjectives={aimsAndObjectives}
-      contactInfo={contactInfo}
-    />
+    <>
+      <SEO
+        title="NAB Perfumery College - Training for the Fragrance Industry"
+        description="The NAB Perfumery College offers a unique 2-year diploma for visually challenged individuals, training them for careers as perfume testers, evaluators, and QC technicians in the fragrance industry."
+        keywords="NAB Perfumery College, fragrance industry jobs for blind, perfume tester training, perfumery diploma for visually impaired, careers in fragrance"
+      />
+      <ProjectPageLayout
+        title="Perfumery College"
+        imageUrl="/images/Projects/perfumery-college.jpg"
+        history={history}
+        aimsAndObjectives={aimsAndObjectives}
+        contactInfo={contactInfo}
+      />
+    </>
   );
 };
 

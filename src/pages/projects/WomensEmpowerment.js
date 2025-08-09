@@ -1,5 +1,6 @@
 import React from 'react';
 import ProjectPageLayout from '../../components/ProjectPageLayout';
+import SEO from '../../components/SEO';
 
 const WomensEmpowerment = () => {
   const history = (
@@ -78,13 +79,20 @@ const WomensEmpowerment = () => {
   );
 
   return (
-    <ProjectPageLayout
-      title="Women's Empowerment"
-      imageUrl="/images/Projects/women-empowerement.jpg"
-      history={history}
-      aimsAndObjectives={aimsAndObjectives}
-      contactInfo={contactInfo}
-    />
+    <>
+      <SEO
+        title="Women's Empowerment - NAB India Department of Women’s Empowerment (DWE)"
+        description="Discover the NAB Department of Women’s Empowerment (DWE), dedicated to the socio-economic empowerment of blind women through training, financial support, counseling, and residential facilities."
+        keywords="Women's empowerment for blind, NAB DWE, support for visually impaired women, training for blind women, hostel for blind working women, Neelum Khurshed Kanga Awards"
+      />
+      <ProjectPageLayout
+        title="Women's Empowerment"
+        imageUrl="/images/Projects/women-empowerement.jpg"
+        history={history}
+        aimsAndObjectives={aimsAndObjectives}
+        contactInfo={contactInfo}
+      />
+    </>
   );
 };
 

@@ -1,30 +1,36 @@
 import React from 'react';
 import ProjectPageLayout from '../../components/ProjectPageLayout';
+import SEO from '../../components/SEO';
 
 const Recreation = () => {
-  const aimsAndObjectives = (
+  const content = (
     <>
-      <p>Nesciunt quaerat consequat class aliqua excepteur quos ultrices, alias eleifend litora dictum cillum a veritatis, sunt molestiae laboris convallis laboriosam aliquet bibendum vestibulum pellentesque cum adipisci. Ratione laborum, lacinia! Modi, commodo expedita incididunt eligendi voluptate dolore consequat illum cupiditate, litora egestas orci posuere molestiae deserunt ornare odio laboriosam, nibh morbi, irure magna turpis ducimus, natoque, semper parturient exercitation rerum.</p>
-      <p>Aspernatur beatae consequat magnam, consectetuer eius, occaecati. Vero ex lectus quia magna class similique dapibus, ipsum, dolores tincidunt, dui similique! Sociis numquam sociosqu.</p>
-      <h4>Our Main Goals</h4>
-      <p>Aspernatur beatae consequat magnam, consectetuer eius, occaecati. Vero ex lectus quia magna class similique dapibus, ipsum, dolores tincidunt, dui similique! Sociis numquam sociosqu? Magna, cum exercitation possimus voluptatem, rerum nam inventore illo tempore.</p>
+      <p>At NAB India, we believe that recreation is essential for a well-rounded and fulfilling life. Our recreation programs provide visually impaired individuals with opportunities to engage in sports, arts, and cultural activities, fostering social connections and personal growth.</p>
+      <h4>Our Recreational Activities</h4>
+      <p>We offer a variety of activities tailored to the interests and abilities of our community, including:</p>
       <ul>
-        <li>Porta tempora facilisi, hac.</li>
-        <li>Beatae hac ultrices, nisi emper beatae.</li>
-        <li>Incididunt vel inci dunticot.</li>
-        <li>Porta tempora facilisi, hacit quisque.</li>
-        <li>Porta tempora facilisi, hac.</li>
-        <li>Incididunt vel inci dunticot ipsum.</li>
+        <li>Adapted sports like cricket, chess, and athletics.</li>
+        <li>Music, dance, and drama workshops.</li>
+        <li>Picnics, excursions, and cultural outings.</li>
+        <li>Hobby classes for arts and crafts.</li>
       </ul>
+      <p>These activities not only provide enjoyment but also help build confidence, teamwork, and a sense of community.</p>
     </>
   );
 
   return (
-    <ProjectPageLayout
-      title="Recreation"
-      imageUrl="/images/Projects/recreation.jpg"
-      aimsAndObjectives={aimsAndObjectives}
-    />
+    <>
+      <SEO
+        title="Recreation for the Visually Impaired - NAB India"
+        description="Discover NAB India's recreation programs, offering visually impaired individuals opportunities to participate in sports, arts, and cultural activities to foster personal growth and community."
+        keywords="Recreation for blind, adapted sports India, arts for visually impaired, cultural activities for disabled, NAB India recreation"
+      />
+      <ProjectPageLayout
+        title="Recreation"
+        imageUrl="/images/Projects/recreation.jpg"
+        aimsAndObjectives={content}
+      />
+    </>
   );
 };
 

@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import './Donate.css';
+import SEO from '../components/SEO';
 
 const Donate = () => {
   useEffect(() => {
@@ -29,6 +30,11 @@ const Donate = () => {
 
   return (
     <div className="donate-container">
+      <SEO
+        title="Donate to NAB India - Support the Visually Impaired"
+        description="Your donation to the National Association for the Blind (NAB) India helps us provide vital education, rehabilitation, and employment services to visually impaired individuals across the country. Donate now and make a difference."
+        keywords="Donate to NAB India, support visually impaired India, NAB India donation, charity for the blind India, 80G tax exemption donation"
+      />
       <div className="donate-hero">
         <h1>Support Our Cause</h1>
         <p>Your contribution helps us empower visually impaired individuals across India</p>

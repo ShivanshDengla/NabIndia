@@ -1,5 +1,6 @@
 import React from 'react';
 import ProjectPageLayout from '../../components/ProjectPageLayout';
+import SEO from '../../components/SEO';
 
 const Rehabilitation = () => {
   const history = (
@@ -87,13 +88,20 @@ const Rehabilitation = () => {
   );
 
   return (
-    <ProjectPageLayout
-      title="NAB Department of Rehabilitation"
-      imageUrl="/images/Projects/rehabiliation.jpg"
-      history={history}
-      aimsAndObjectives={aimsAndObjectives}
-      contactInfo={contactInfo}
-    />
+    <>
+      <SEO
+        title="Rehabilitation Services for the Visually Impaired - NAB India"
+        description="Explore the NAB Department of Rehabilitation's comprehensive training courses, including basic rehabilitation, vocational training, physiotherapy, and acupressure, designed to empower visually impaired individuals."
+        keywords="NAB India rehabilitation, rehabilitation for blind, vocational training for visually impaired, physiotherapy course for blind, acupressure course, white cane day"
+      />
+      <ProjectPageLayout
+        title="NAB Department of Rehabilitation"
+        imageUrl="/images/Projects/rehabiliation.jpg"
+        history={history}
+        aimsAndObjectives={aimsAndObjectives}
+        contactInfo={contactInfo}
+      />
+    </>
   );
 };
 

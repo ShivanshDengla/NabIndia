@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './Contact.css';
+import SEO from '../components/SEO';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -77,6 +78,11 @@ const Contact = () => {
 
   return (
     <div className="contact-container">
+      <SEO
+        title="Contact NAB India - Get in Touch"
+        description="Contact the National Association for the Blind (NAB) India. Find our address, phone number, and email, or send us a message through our contact form. We look forward to hearing from you."
+        keywords="Contact NAB India, NAB India address, NAB India phone number, NAB India email, National Association for the Blind contact"
+      />
       <div className="contact-hero" style={heroStyle}>
         <h1>Contact Us</h1>
         <p>Get in touch with us for any inquiries or support</p>

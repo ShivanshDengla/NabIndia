@@ -1,5 +1,6 @@
 import React from 'react';
 import ProjectPageLayout from '../../components/ProjectPageLayout';
+import SEO from '../../components/SEO';
 
 const ResearchLibrary = () => {
   const history = (
@@ -42,13 +43,20 @@ const ResearchLibrary = () => {
   );
 
   return (
-    <ProjectPageLayout
-      title="Research Library and Information"
-      imageUrl="/images/Projects/research-library.jpeg"
-      history={history}
-      aimsAndObjectives={aimsAndObjectives}
-      contactInfo={contactInfo}
-    />
+    <>
+      <SEO
+        title="Louis Braille Memorial Research Centre - NAB India"
+        description="Explore the Louis Braille Memorial Research Centre (LBMRC) at NAB India, a hub for research on blindness-related issues, housing a specialized library and publishing key literature."
+        keywords="Louis Braille Memorial Research Centre, LBMRC, research on blindness, blind welfare library, NAB India publications, Vision '98"
+      />
+      <ProjectPageLayout
+        title="Research Library and Information"
+        imageUrl="/images/Projects/research-library.jpeg"
+        history={history}
+        aimsAndObjectives={aimsAndObjectives}
+        contactInfo={contactInfo}
+      />
+    </>
   );
 };
 

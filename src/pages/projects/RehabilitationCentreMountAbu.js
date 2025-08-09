@@ -1,5 +1,6 @@
 import React from 'react';
 import ProjectPageLayout from '../../components/ProjectPageLayout';
+import SEO from '../../components/SEO';
 
 const RehabilitationCentreMountAbu = () => {
   const history = (
@@ -10,8 +11,9 @@ const RehabilitationCentreMountAbu = () => {
     </>
   );
 
-  const aimsAndObjectives = (
+  const activities = (
     <>
+      <h4>Activities</h4>
       <p>The basic aim of the Centre is to restore the blind client to the fullest normalcy permitted by his handicap. Thus our aim is to educate and rehabilitate the blind to live and do all that can be done as a sighted person. By doing this we hope to help them get their confidence back.</p>
       
       <h4>Eligibility of admission:</h4>
@@ -58,7 +60,7 @@ const RehabilitationCentreMountAbu = () => {
 
   const committeeMembers = (
     <>
-      <h4>LIST OF MEMBERS OF THE MANAGING COMMITTEE OF<br/>NAB – P. & N. M. REHABILITATION CENTRE FOR THE BLIND,<br/>DELWARA ROAD, MOUNT ABU – 307 501 (RAJ.)</h4>
+      <h4>LIST OF MEMBERS OF THE MANAGING COMMITTEE OF NAB – P. & N. M. REHABILITATION CENTRE FOR THE BLIND, DELWARA ROAD, MOUNT ABU – 307 501 (RAJ.)</h4>
       <ul>
         <li><strong>Shri Bhasker Y. Mehata S/o Late Shri Yogendra Mehata:</strong> Chairman</li>
         <li><strong>Mr. K. N. Contractor S/o Lt.Shri Nariman Contractor:</strong> Co-Chairman</li>
@@ -93,14 +95,21 @@ const RehabilitationCentreMountAbu = () => {
   );
 
   return (
-    <ProjectPageLayout
-      title="Rehabilitation Centre Mount Abu"
-      imageUrl="/images/Projects/rehab-center-mount-abu.jpg"
-      history={history}
-      aimsAndObjectives={aimsAndObjectives}
-      committeeMembers={committeeMembers}
-      contactInfo={contactInfo}
-    />
+    <>
+      <SEO
+        title="NAB Rehabilitation Centre, Mount Abu - Training for the Blind"
+        description="The NAB Phiroze & Noshir Merwanji Rehabilitation Centre in Mount Abu offers comprehensive rehabilitation and education for newly blind adults and children, empowering them for independent living."
+        keywords="NAB Mount Abu, rehabilitation centre for blind, training for newly blind, special school for blind Rajasthan, vocational training Mount Abu"
+      />
+      <ProjectPageLayout
+        title="Rehabilitation Centre Mount Abu"
+        imageUrl="/images/Projects/rehab-center-mount-abu.jpg"
+        history={history}
+        aimsAndObjectives={activities}
+        additionalContent={committeeMembers}
+        contactInfo={contactInfo}
+      />
+    </>
   );
 };
 
