@@ -15,7 +15,7 @@ const Navbar = () => {
         <li><Link to="/about">About Us</Link></li>
         <li><Link to="/contact">Contact Us</Link></li>
         <li><Link to="/projects">Projects and Activities</Link></li>
-        {/* <li><Link to="/news">News and Updates</Link></li> */}
+        <li><Link to="/news">News and Updates</Link></li>
       </ul>
       <div className="navbar-donate">
         <Link to="/donate" className="donate-button">DONATE</Link>
