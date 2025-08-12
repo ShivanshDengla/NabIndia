@@ -16,8 +16,11 @@ const TalkingBooks = () => {
   );
 
   const contactInfo = (
+    <p>For more information about online facility and to become a member of the Talking Book Library contact: 9372766319 or mail to nab.india.library@gmail.com / talkingbook@nabindia.info</p>
+  );
+
+  const howToHelp = (
     <>
-      <p>For more information about online facility and to become a member of the Talking Book Library contact: 9372766319 or mail to nab.india.library@gmail.com</p>
       <h4>How you can help us</h4>
       <img src="/images/Projects/talking-book-2.jpg" alt="Volunteer reading for a talking book" style={{ width: '100%', margin: '20px 0' }} />
       <ul>
@@ -45,7 +48,7 @@ const TalkingBooks = () => {
       <p><a href="https://nabindia.org.in/wp-content/uploads/2024/04/All-Gujarathi-Books.xlsx" target="_blank" rel="noopener noreferrer">Click The link to get the complete list of Gujarathi Audio Books</a></p>
       <p><a href="https://nabindia.org.in/wp-content/uploads/2024/04/All-other-languages-Books.xlsx" target="_blank" rel="noopener noreferrer">Click The link to get the complete list of Punjabi, Kannada, Tamil and Sanskrit Audio Books</a></p>
     </>
-  );
+  )
 
   return (
     <>
@@ -59,6 +62,7 @@ const TalkingBooks = () => {
         imageUrl="/images/Projects/talking-book.jpg"
         history={history}
         aimsAndObjectives={aimsAndObjectives}
+        additionalContent={howToHelp}
         contactInfo={contactInfo}
       />
     </>

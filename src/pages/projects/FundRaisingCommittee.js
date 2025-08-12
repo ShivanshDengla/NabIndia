@@ -39,8 +39,7 @@ const FundRaisingCommittee = () => {
   const contactInfo = (
     <>
       <h4>Contact details:</h4>
-      <p><strong>Contact Person:</strong> Mr. Arvind Narvekar, Deputy Director & HOD</p>
-      <p><strong>Mobile Nos.:</strong> 9372766321/9969147065</p>
+      <p><strong>Mobile No.:</strong> 9372766320</p>
       <p><strong>Landline Nos.:</strong> 022-22045482</p>
       <p><strong>Email ID:</strong> frc@nabindia.info</p>
     </>

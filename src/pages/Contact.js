@@ -71,7 +71,7 @@ const Contact = () => {
   };
 
   const heroStyle = {
-    background: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/images/Projects/center-of-blind.jpg')`,
+    background: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/images/Projects/center-of-blind.png')`,
     backgroundSize: 'cover',
     backgroundPosition: 'center',
   };

@@ -54,6 +54,18 @@ const supporters = [
     name: "UTI Mutual Fund",
     logo: "/images/Supporters/uti_logo.png",
   },
+  {
+    name: "FBL",
+    logo: "/images/Supporters/fbl logo.jpeg",
+  },
+  {
+    name: "Lubrizol",
+    logo: "/images/Supporters/lubrizol.png",
+  },
+  {
+    name: "SCOR",
+    logo: "/images/Supporters/scor logo.png",
+  },
 ];
 
 const Supporters = () => {

@@ -10,6 +10,7 @@ const ProjectPageLayout = ({
   history,
   aimsAndObjectives,
   committeeMembers,
+  additionalContent,
   contactInfo,
   donateLink = "/donate"
 }) => {
@@ -17,7 +18,6 @@ const ProjectPageLayout = ({
     <div className="project-page-layout">
       <header className="project-header">
         <h1>{title}</h1>
-        <a href={donateLink} className="donate-button-project">Donate</a>
       </header>
 
       <div className="project-content">
@@ -50,6 +50,12 @@ const ProjectPageLayout = ({
         <div className="project-section committee-section">
           <h2>Committee Members</h2>
           {committeeMembers}
+        </div>
+      )}
+
+      {additionalContent && (
+        <div className="project-section additional-content-section">
+          {additionalContent}
         </div>
       )}
 

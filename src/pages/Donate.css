@@ -172,6 +172,53 @@
   line-height: 1.6;
 }
 
+.bank-details {
+  background: white;
+  padding: 3rem;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  margin-bottom: 4rem;
+  text-align: left;
+}
+
+.bank-details h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.bank-details p {
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.bank-details ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.bank-details li {
+  color: #333;
+  padding: 1rem;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bank-details li:last-child {
+  border-bottom: none;
+}
+
+.bank-details strong {
+  color: #333;
+  font-weight: 600;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
   .donate-hero {

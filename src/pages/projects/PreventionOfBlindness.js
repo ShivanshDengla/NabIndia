@@ -48,8 +48,7 @@ const PreventionOfBlindness = () => {
     <>
       <h4>What can you do?</h4>
       <p>Sponsor for Cataract/Squint Surgeries, Spectacles (Distant Vision/Bio-focal/Hi-Index), special Aids for the Low Vision Persons.</p>
-      <p><strong>Contact Person:</strong> Mr. Arvind Narvekar, Deputy Director & HOD</p>
-      <p><strong>Mobile No.:</strong> 9372766321 / 9969147065</p>
+      <p><strong>Mobile No.:</strong> 9372766320</p>
       <p><strong>Landline No.:</strong> 022-2435370/2820/5365 Ext.248/221</p>
       <p><strong>Email ID:</strong> prevention@nabindia.info</p>
     </>

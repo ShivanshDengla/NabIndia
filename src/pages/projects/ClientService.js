@@ -29,6 +29,7 @@ const ClientService = () => {
     <>
       <h4>Contact details:</h4>
       <p>Email: clientservice@nabindia.info</p>
+      <p>Mobile: 9372766322</p>
     </>
   );
 

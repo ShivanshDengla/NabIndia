@@ -195,7 +195,7 @@ const Education = () => {
         <li>Contribute to dormitory requirements</li>
       </ol>
       <p>For more information or to support: <br />
-      <strong>Mobile:</strong> +91 9375766301 <br />
+      <strong>Mobile:</strong> +91 9372766301 <br />
       <strong>Email:</strong> education@nabindia.info / ie@nabindia.info</p>
     </>
   );

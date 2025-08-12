@@ -107,6 +107,20 @@ const Donate = () => {
             </div>
           </div>
         </div>
+
+        <div className="bank-details">
+          <h2>Bank Transfer Details</h2>
+          <p>You can also donate directly to our bank account using the details below:</p>
+          <ul>
+            <li><strong>Name of the Organization:</strong> National Association for the Blind, India</li>
+            <li><strong>Name of the Bank:</strong> Punjab National Bank</li>
+            <li><strong>Branch:</strong> Worli Seaface Branch, Mumbai 400 030</li>
+            <li><strong>Account No:</strong> 3740000100008551</li>
+            <li><strong>IFSC Code:</strong> PUNB 0374000</li>
+            <li><strong>MICR Code:</strong> 400024060</li>
+            <li><strong>PAN No.:</strong> AAATN2303H</li>
+          </ul>
+        </div>
       </div>
     </div>
   );

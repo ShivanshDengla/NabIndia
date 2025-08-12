@@ -113,9 +113,9 @@ const projects = [
     link: '/projects/home-for-elderly-blind'
   },
   {
-    title: 'Centre for Blind women',
-    description: 'Hic commodo odio pharetra magni aliquet posuere aptent mus leo class urna. Eum diamlorem, netus posuere aptent mus.',
-    image: 'images/Projects/center-of-blind.jpg',
+    title: 'NAB – DVK Music Academy',
+    description: 'India’s first music academy for visually impaired persons offering free training in vocals, instruments and percussion. Home to the Golden Melodies orchestra.',
+    image: 'images/Projects/center-of-blind.png',
     link: '/projects/centre-for-blind-women'
   },
   {

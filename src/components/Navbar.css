@@ -53,6 +53,10 @@
   outline-offset: 2px;
 }
 
+.mobile-donate-link {
+  display: none;
+}
+
 .mobile-menu-toggle {
   display: none;
   background: none;
