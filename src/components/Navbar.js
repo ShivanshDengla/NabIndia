@@ -63,6 +63,7 @@ const Navbar = () => {
           <li><Link to="/contact" onClick={closeMobileMenu}>Contact Us</Link></li>
           <li><Link to="/projects" onClick={closeMobileMenu}>Projects and Activities</Link></li>
           <li><Link to="/news" onClick={closeMobileMenu}>News and Updates</Link></li>
+          {/* <li><Link to="/membership" onClick={closeMobileMenu}>Membership</Link></li> */}
           <li className="mobile-donate-link">
             <Link to="/donate" className="donate-button" onClick={closeMobileMenu}>DONATE</Link>
           </li>

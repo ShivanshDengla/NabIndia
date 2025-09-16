@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <>
       <SEO 
-        title="NAB India - Home"
+        title="National Association for the Blind | NAB India - Home"
         description="Welcome to the official website of the National Association for the Blind (NAB) India. Discover our mission to empower the visually impaired and learn how you can get involved."
         keywords="NAB India, National Association for the Blind, home, empowerment, visually impaired, non-profit India"
       />
