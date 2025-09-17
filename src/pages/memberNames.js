@@ -3491,7 +3491,6 @@ export const memberNames = [
     'SANTOSH KUMAR - 2118',
     'VIJAY AGARWAL - 1587',
     'SURENDRA KUMAR TRIPATHI - 496',
-    'SATYA KUMAR SINGH - 3085',
     'PADMA SINGH - 3086',
     'KAMAL DENGLA - 2114',
     'RAM SHUKLA - 3087',
