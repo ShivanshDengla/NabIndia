@@ -8,7 +8,7 @@ import Projects from './pages/Projects';
 import News from './pages/News';
 import Contact from './pages/Contact';
 import Donate from './pages/Donate';
-import Membership from './pages/Membership';
+// import Membership from './pages/Membership';
 import './App.css';
 
 import PreventionOfBlindness from './pages/projects/PreventionOfBlindness';
@@ -45,7 +45,7 @@ function App() {
             <Route path="/news" element={<News />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/donate" element={<Donate />} />
-            <Route path="/membership" element={<Membership />} />
+            {/* <Route path="/membership" element={<Membership />} /> */}
             <Route path="/projects/prevention-of-blindness" element={<PreventionOfBlindness />} />
             <Route path="/projects/nursery" element={<Nursery />} />
             <Route path="/projects/education" element={<Education />} />

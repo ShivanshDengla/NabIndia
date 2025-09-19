@@ -1,3 +1,5 @@
+// MEMBERSHIP PAGE TEMPORARILY DISABLED
+/*
 import React, { useState, useRef, useEffect } from 'react';
 import SEO from '../components/SEO';
 import { memberNames } from './memberNames';
@@ -191,3 +193,4 @@ const Membership = () => {
 };
 
 export default Membership;
+*/
