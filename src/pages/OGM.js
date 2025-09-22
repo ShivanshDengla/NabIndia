@@ -32,15 +32,6 @@ const OGM = () => {
               new office bearers.
             </p>
             
-            <div className="ogm-details">
-              <h3>Meeting Details</h3>
-              <ul>
-                <li><strong>Date:</strong> To be announced</li>
-                <li><strong>Venue:</strong> NAB India Project Office</li>
-                <li><strong>Agenda:</strong> Annual reports, financial statements, and elections</li>
-              </ul>
-            </div>
-            
             <div className="download-section">
               <h3>Download Meeting Documents</h3>
               <p>
